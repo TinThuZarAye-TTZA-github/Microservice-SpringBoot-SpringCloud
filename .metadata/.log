@@ -854,3 +854,68 @@ java.lang.IllegalStateException: Call stack for thread main
 	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2022-10-26 00:15:11.016
+!MESSAGE DebugException: Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:296)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:155)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:178)
+	at org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate.performOperation(StopProcessPullDownToolbarDelegate.java:22)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$2.run(AbstractLaunchToolbarPulldown.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2022-10-26 00:15:11.024
+!MESSAGE Terminate failed
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2022-10-26 00:15:13.839
+!MESSAGE DebugException: Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:296)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:155)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:178)
+	at org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate.performOperation(StopProcessPullDownToolbarDelegate.java:22)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$2.run(AbstractLaunchToolbarPulldown.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2022-10-26 00:15:13.839
+!MESSAGE Terminate failed
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2022-10-26 00:16:09.237
+!MESSAGE DebugException: Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:296)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:155)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:178)
+	at org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate.performOperation(StopProcessPullDownToolbarDelegate.java:22)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$2.run(AbstractLaunchToolbarPulldown.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2022-10-26 00:16:09.237
+!MESSAGE Terminate failed
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2022-10-26 00:16:10.245
+!MESSAGE DebugException: Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:296)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:155)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:178)
+	at org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate.performOperation(StopProcessPullDownToolbarDelegate.java:22)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$2.run(AbstractLaunchToolbarPulldown.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2022-10-26 00:16:10.245
+!MESSAGE Terminate failed
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2022-10-26 00:24:32.463
+!MESSAGE DebugException: Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:296)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:155)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:178)
+	at org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate.performOperation(StopProcessPullDownToolbarDelegate.java:22)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$2.run(AbstractLaunchToolbarPulldown.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2022-10-26 00:24:32.464
+!MESSAGE Terminate failed
