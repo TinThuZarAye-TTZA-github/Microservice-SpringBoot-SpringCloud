@@ -34,6 +34,7 @@ POST - http://localhost:8989/department/add
 }  
 GET - http://localhost:8989/user/{userId}  
 POST - http://localhost:8989/department/add  
+----------------------------------------------------------------------------
 {  
     "firstName" : "firstName",  
     "lastName" : "lastName",  
