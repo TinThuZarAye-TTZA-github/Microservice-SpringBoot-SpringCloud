@@ -31,10 +31,10 @@ POST - http://localhost:8989/department/add
     "departmentName" : "department1",  
     "departmentAddress" : "address",  
     "departmentCode": "department1-1"  
-}  
+} 
+
 GET - http://localhost:8989/user/{userId}  
 POST - http://localhost:8989/department/add  
-----------------------------------------------------------------------------
 {  
     "firstName" : "firstName",  
     "lastName" : "lastName",  
