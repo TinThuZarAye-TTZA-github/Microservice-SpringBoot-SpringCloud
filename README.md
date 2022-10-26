@@ -23,15 +23,6 @@ Cloud Config
 Dependency : Eureka Discovery Client, Config Server  
 port : 9296  
 
-
--------------------------------------------------------------------
-
-Microservice Architecture
------------------------------ 
-<img width="849" alt="Screen Shot 2022-10-26 at 12 54 42 AM" src="https://user-images.githubusercontent.com/97212223/197967812-118fdd52-e39d-43cd-b27b-090c4fc5b024.png">
-
---------------------------------------------------------------------
-
 GET - http://localhost:8989/department/{depatmentId}  
 POST - http://localhost:8989/department/add  
 {  
@@ -49,5 +40,9 @@ POST - http://localhost:8989/department/add
     "departmentId" : 1  
 
 }
+
+Microservice Architecture
+-----------------------------
+<img width="849" alt="Screen Shot 2022-10-26 at 12 54 42 AM" src="https://user-images.githubusercontent.com/97212223/197968230-c994e69a-0068-4658-ba11-7b33f8738524.png">
 
 
