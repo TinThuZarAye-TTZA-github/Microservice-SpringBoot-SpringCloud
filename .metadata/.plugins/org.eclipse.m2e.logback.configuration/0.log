@@ -2846,3 +2846,18 @@ org.eclipse.core.runtime.CoreException: Launch configuration HystrixDashboardApp
 2022-10-25 22:44:57,676 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-10-25 22:44:57,676 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-10-25 22:44:57,676 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tinthuzaraye/Desktop/Eclipse/Microservice_SpringBoot_SpringCloud/Department/src/test/resources
+2022-10-25 23:48:50,274 [Worker-323: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Cloud-Config-Server:0.0.1-SNAPSHOT @ /Users/tinthuzaraye/Desktop/Eclipse/Microservice_SpringBoot_SpringCloud/Cloud-Config/pom.xml.
+2022-10-25 23:48:55,170 [Worker-323: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-25 23:48:55,170 [Worker-323: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-25 23:48:55,170 [Worker-323: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-25 23:48:55,177 [Worker-323: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-25 23:48:55,179 [Worker-323: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-25 23:48:55,179 [Worker-323: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-25 23:48:55,179 [Worker-323: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tinthuzaraye/Desktop/Eclipse/Microservice_SpringBoot_SpringCloud/Cloud-Config/src/test/resources
+2022-10-25 23:48:57,668 [Worker-321: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-25 23:48:57,669 [Worker-321: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-25 23:48:57,670 [Worker-321: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-10-25 23:48:57,674 [Worker-321: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-25 23:48:57,676 [Worker-321: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-25 23:48:57,676 [Worker-321: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-10-25 23:48:57,676 [Worker-321: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tinthuzaraye/Desktop/Eclipse/Microservice_SpringBoot_SpringCloud/Cloud-Config/src/test/resources
