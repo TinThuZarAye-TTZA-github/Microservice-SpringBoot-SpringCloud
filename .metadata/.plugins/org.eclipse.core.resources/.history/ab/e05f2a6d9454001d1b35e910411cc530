@@ -1,0 +1,11 @@
+package com.microservice.entities;
+
+import org.apache.catalina.User;
+
+@Data
+@All
+public class CommonValue {
+
+	User user;
+	Department department;
+}

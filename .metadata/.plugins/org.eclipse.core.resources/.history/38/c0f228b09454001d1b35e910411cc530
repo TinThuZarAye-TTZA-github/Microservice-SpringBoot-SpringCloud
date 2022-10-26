@@ -1,0 +1,5 @@
+package com.microservice.commonvalue;
+
+public class CommonValue {
+
+}

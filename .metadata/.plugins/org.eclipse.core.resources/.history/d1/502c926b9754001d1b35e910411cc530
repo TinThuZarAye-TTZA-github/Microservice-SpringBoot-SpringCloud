@@ -1,0 +1,42 @@
+package com.microservice.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.microservice.commonvalue.CommonValue;
+import com.microservice.commonvalue.Department;
+import com.microservice.entities.User;
+import com.microservice.repository.UserRepository;
+
+@Service
+public class UserServiceImpl implements UserService{
+
+	@Autowired
+	UserRepository repo;
+	
+	@Autowired
+	RestTemplate restTemplate;
+	
+	@Override
+	public User saveUser(User newUser) {
+		User user = repo.save(newUser);
+		return user;
+	}
+
+	@Override
+	public Optional<User> findById(int id) {
+		Optional<User> uId = repo.findById(id);
+		return uId;
+	}
+
+	@Override
+	public CommonValue userWithDepartmentId(int userId) {
+		CommonValue value = new CommonValue();
+		User user = repo.findByUserId(userId);
+		Department department = restTemplate.postForObject("http://localhost:8080/department/"+department.getDepartmentId(), Department.class)
+		return null;
+	}
+}

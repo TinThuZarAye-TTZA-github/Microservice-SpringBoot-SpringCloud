@@ -1,0 +1,8 @@
+package com.microservice.services;
+
+import com.microservice.entities.Department;
+
+public interface DepartmentService {
+
+	public Department saveDepartment(Department department);
+}

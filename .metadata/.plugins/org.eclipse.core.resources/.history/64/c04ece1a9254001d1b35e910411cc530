@@ -1,0 +1,8 @@
+package com.microservice.service;
+
+import com.microservice.entities.User;
+
+public interface UserService {
+
+	public User saveUser(User newUser);
+}

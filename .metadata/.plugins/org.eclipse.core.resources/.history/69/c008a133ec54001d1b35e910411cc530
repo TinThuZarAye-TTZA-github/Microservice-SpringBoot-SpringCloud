@@ -1,0 +1,13 @@
+server:
+  port: 9296
+  
+  
+spring:
+  application:
+    name: CLOUD-CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/TinThuZarAye-TTZA-github/Microservice-SpringBoot-SpringCloud/tree/main/Cloud-Config-Server
+          clone-on-start: true

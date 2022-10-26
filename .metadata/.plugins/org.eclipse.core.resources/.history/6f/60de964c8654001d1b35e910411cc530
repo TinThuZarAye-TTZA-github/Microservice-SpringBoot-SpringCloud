@@ -1,0 +1,17 @@
+package com.microservice.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Department")
+public class Department {
+	@Id
+	@GeneratedValue
+	private int departmentId;
+	private String departmentName;
+	private String departmentAddress;
+	private String departmentCode;
+}
